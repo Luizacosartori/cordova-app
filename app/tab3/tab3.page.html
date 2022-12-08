@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Device's Information
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>Device Model: {{model}} </ion-list>
+  <ion-list>Device System: {{system}} </ion-list>
+  <ion-list>Device System Version: {{systemVersion}} </ion-list>
+  <ion-list>Device Serial Number: {{serialNumber}} </ion-list>
+  <ion-list>Device Manufacturer: {{manufacturer}} </ion-list>
+
+  <ion-list>Battery Status: {{batteryStatus}} %</ion-list>
+  <ion-list>{{message}}</ion-list>
+  <ion-list> Is it plugged? {{status}}</ion-list>
+
+</ion-content>
